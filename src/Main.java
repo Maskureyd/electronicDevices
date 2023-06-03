@@ -9,7 +9,7 @@ public class Main {
         System.out.println();
         System.out.println("Devices defined at the beginning are accessed through the defined objects : ");
         System.out.printf(lenovo.getMake() + " brand,priced at " + lenovo.getPrice() + ",equipped with " + lenovo.getOperatingSystem() + " operating system.%n");
-        System.out.printf(redmi.getMake() + " brand,priced at " + redmi.getPrice() + ",with the phone number " + redmi.getPhoneNumber() + ".%n");
+        System.out.printf(redmi.getMake() + " brand,priced at " + redmi.getPrice() + ",with the phone number " + redmi.getPhoneNumber() + ". %n");
 
         System.out.println();
         lenovo.updateOperatingSystem("Windows Vista");
